@@ -172,4 +172,5 @@ footer {
   width: 100%;
   max-width: 300px; /* أقصى عرض للكارت */
 }
+.hidden { display: none; }
 
