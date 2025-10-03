@@ -12,17 +12,26 @@
       <ul>
         <li><a href="index.html">الرئيسية</a></li>
         <li><a href="#products">المنتجات</a></li>
-        <li><a href="login.html">تسجيل الدخول</a></li>
         <li><a href="contact.html">اتصل بنا</a></li>
       </ul>
     </nav>
   </header>
 
+  <!-- أزرار الأقسام -->
+  <section id="categories" style="text-align:center; margin:20px 0;">
+    <button class="filter-btn" data-category="all">الكل</button>
+    <button class="filter-btn" data-category="fridge">ثلاجات</button>
+    <button class="filter-btn" data-category="washer">غسالات</button>
+    <button class="filter-btn" data-category="ac">تكييفات</button>
+    <button class="filter-btn" data-category="oven">بوتجازات</button>
+    <button class="filter-btn" data-category="tv">تلفزيونات</button>
+  </section>
+
   <section id="products">
     <h2>المنتجات</h2>
     <div class="product-grid">
 
-      <div class="product-card">
+      <div class="product-card fridge">
         <h3>ثلاجة سامسونج</h3>
         <img src="./ثلاجة سامسونج.jpg" alt="ثلاجة سامسونج">
         <p>ثلاجة سامسونج بفريزر علوي مع اوبتيمال فريش سعة 388 لتر / لون فضي.</p>
@@ -30,7 +39,31 @@
         <button>أضف إلى السلة</button>
       </div>
 
-      <div class="product-card">
+      <div class="product-card fridge">
+        <h3>ثلاجة شارب</h3>
+        <img src="./ثلاجه شارب.jpg" alt="ثلاجة شارب">
+        <p>ثلاجة شارب نوفروست -سعة 450 لتر- / لون أسود</p>
+        <p class="price">السعر: 28,740 جنيه</p>
+        <button>أضف إلى السلة</button>
+      </div>
+
+      <div class="product-card fridge">
+        <h3>ثلاجة توشيبا</h3>
+        <img src="./ثلاجه توشيبا.jpg" alt="ثلاجة توشيبا">
+        <p>ثلاجة توشيبا محرك انفرتر أصلي 463 لتر / لوت رمادي</p>
+        <p class="price">السعر: 29,999 جنيه</p>
+        <button>أضف إلى السلة</button>
+      </div>
+
+      <div class="product-card fridge">
+        <h3>ثلاجة تورنيدو</h3>
+        <img src="./ثلاجه تورنيدو.jpg" alt="ثلاجة تورنيدو">
+        <p>ثلاجة تورنيدو انفرتر نوفروست سعة 395 لتر / لون فضي </p>
+        <p class="price">السعر: 23,499 جنيه</p>
+        <button>أضف إلى السلة</button>
+      </div>
+
+      <div class="product-card washer">
         <h3>غسالة إل جي</h3>
         <img src="./غساله ال جي.jpg" alt="غسالة إل جي">
         <p>غسالة إل جي إس تي أس جرام 6 موشن دي بتحميل أمامي 1200 دورة في الدقيقة سعة 8 كغم / لون أسود.</p>
@@ -38,7 +71,7 @@
         <button>أضف إلى السلة</button>
       </div>
 
-      <div class="product-card">
+      <div class="product-card ac">
         <h3>تكييف تورنيدو</h3>
         <img src="./تكييف تورنيدو.jpg" alt="تكييف تورنيدو">
         <p>تكييف توريندو سبليت 1.5 سوبر جيت 18.000 وحدة حرارية بريطانية / لون أبيض.</p>
@@ -46,7 +79,7 @@
         <button>أضف إلى السلة</button>
       </div>
 
-      <div class="product-card">
+      <div class="product-card oven">
         <h3>بوتجاز توشيبا</h3>
         <img src="./بوتجاز توشيبا.jpg" alt="بوتجاز توشيبا">
         <p>بوتجاز توشيبا 4 شعلة 60×60 سم / لون فضي.</p>
@@ -54,7 +87,7 @@
         <button>أضف إلى السلة</button>
       </div>
 
-      <div class="product-card">
+      <div class="product-card tv">
         <h3>تلفزيون سامسونج</h3>
         <img src="./تليفزيون سامسونج.jpg" alt="تلفزيون سامسونج">
         <p>تلفزيون سامسونج كريستال UHD مقاس 55 بوصة دقة 4K / لون أسود.</p>
@@ -68,5 +101,7 @@
   <footer>
     <p>جميع الحقوق محفوظة &copy; 2025</p>
   </footer>
+  
+  <script src="script.js"></script>
 </body>
 </html>
